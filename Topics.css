@@ -17,6 +17,9 @@
     color: rgb(255, 123, 75);
 }
 
+.topics {
+    display: flex; 
+}
 
 .gif {
     text-align: center;
