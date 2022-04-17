@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+
+
+.bam {
+    padding: 20px;
+    height: 200px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: aliceblue;
+
+}
+.bam a{
+    text-decoration: none;
+    outline: none;
+    color: rgb(255, 123, 75);
+}
+
+
+.grid {
+    align-items: center;
+    justify-content: center;
+    
+}
+.grid {
+   display: flex; 
+   justify-content: space-between;
+
+}
+.card {
+    box-shadow: 0 4px 8px 0;
+    background-color: white;
+    max-width: 300px;
+    margin: 10px;
+    max-height: 500px;
+    text-align: center;
+    float: right;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+.dropdown {
+    display: none;
+}
+.card:hover .dropdown {
+    display: block;
+}
+.p{
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: serif;
+    color: white;
+}
+.s {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: serif;
+    color: black;
+} 

@@ -1,0 +1,70 @@
+.bam {
+    padding: 20px;
+    height: 200px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: aliceblue;
+
+}
+.bam a{
+    text-decoration: none;
+    outline: none;
+    color: rgb(255, 123, 75);
+}
+.mini-con h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.con {
+    color: orange;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.sign {
+    background-color: rgb(221, 228, 255);
+}
+
+
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+}
+
+
+.large-con {
+    display: flex;
+    justify-content: space-between;
+}  
+
+
+.box2 {
+
+    background-color: rgb(39, 47, 54);
+    margin: 30px;
+    height: 400px;
+    width: 400px;
+    border-top-left-radius: 50%;
+}
+.box2 h2{
+    color: white;
+}
+.box2:hover {
+    background-color: rgb(39, 47, 54);
+}
+.ic {
+    padding: 20px 15px;
+    color: orange;
+    border-radius: 50%;
+    background-image: linear-gradient(aliceblue, lightblue);
+    height: 100px;
+    width: 110px;
+}
+.pp {
+    padding: 20px;
+    color: aliceblue;
+    font-size: 18px;
+}

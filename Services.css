@@ -1,0 +1,79 @@
+
+
+
+.bam {
+    padding: 20px;
+    height: 200px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: aliceblue;
+
+}
+.bam a{
+    text-decoration: none;
+    outline: none;
+    color: rgb(255, 123, 75);
+}
+
+.mini-container {
+    display: flex;
+    flex: wrap;
+    margin: 80px;
+}
+
+.gif {
+    text-align: center;
+    padding: 0;
+    float: right;
+    justify-content: space-between;
+    max-width: 350px;
+    margin: 40px;
+    max-height: 600px;
+    background-color: rgb(255, 255, 255);
+}
+
+.icon {
+    padding-top: 20px;
+    height: 60px;
+    width: 70px;
+    background-color: #ddd;
+}
+.icon i{
+    color: aqua;
+
+}
+.icon:hover, .icon i:hover {
+        color: white;
+        background-color: orange;
+}
+
+
+
+.imge:hover  {
+    box-shadow: 6px 2px 6px 0 black;
+}
+
+.btn {
+    text-decoration: none;
+    outline: none;
+    color: orange;
+    font-size: 17px;
+    font-weight: 600;
+}
+.btn:hover {
+    color: orangered;
+}
+
+.text-card {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box {
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+}

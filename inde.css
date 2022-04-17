@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+}
+
+.tablink {
+    background-color: white;
+    color: black;
+    float: left;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 16px;
+    font-size: 20px;
+    font-weight: 700;
+    height: auto;
+    width: 6%;
+}
+
+.tablink:hover {
+    color: orange;
+    
+}
+
+.tabcontent {
+    color: black;
+
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#Home {background-color: white;}
+
+
+.little {
+    display: flex;
+    padding: 12px;
+}
+.little a{
+    color: orange;
+    background-color: #f4f5fd;
+    padding: 10px 10px;
+    height: 20px;
+    border-radius: 50%;
+    text-decoration: none;
+    outline: none;
+}
+.little a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.small-box {
+    float: right;
+}
+
+.ct {
+    font-size: 20px;
+    font-weight: 700;
+    color: orange;
+    padding: 10px;
+}
+
+.mySlides {
+    display: none;
+}
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.text {
+    text-align: left;
+    background-color: #b6b6b6a2;
+    color: #f2f2f2;
+    font-size: 60px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    height: 500px;
+    width: 100%;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+.box {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(182, 180, 181);
+}
+
+.bot {
+    height: 50px;
+    width: 140px;
+    font-size: 18px;
+    font-family: 7900;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+}
+
+.serv {
+    text-align: center;
+}
+.txt-serv {
+    color: orange;
+    font-family: monospace;
+    font-size: 20px;
+}
+.txt {
+    font-size: 60px;
+}
+
+
+.card1 {
+    box-shadow: 0 4px 8px 0;
+    background-color: white;
+    max-width: 500px;
+    margin: 10px;
+    max-height: 700px;
+    padding: 40px;
+    text-align: center;
+    float: right;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+
+.p{
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: serif;
+    color: white;
+}
+.red {
+    text-decoration: none;
+    color: orange;
+    outline: none;
+    font-size: 20px;
+    word-spacing: 7px;
+}
+.red:hover {
+    color: rgb(255, 238, 208);
+}
+
+.scrollmenu {
+    overflow: auto;
+    display: flex;
+
+}
+
+.box2 {
+    height: 50px;
+    width: 60px;
+    background-color: #bbb;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.box2:hover {
+    background-color: orange;
+    color: white;
+}
+
+.why2 {
+    border-radius: 4px;
+    box-shadow: 10px 0 10px black;
+    background-color: rgb(235, 235, 252);
+    font-size: 26px;
+    font-weight: 700;
+    font-family: monospace;
+    padding: 150px 20px;
+}
+.checks {
+    font-size: 14px;
+    font-weight: 700;
+}
+.anime1 {
+    background-color: rgb(255, 94, 0);
+    color: white;
+    width: 170px;
+    padding: 12px;
+    
+}
+.orange-box {
+    background-color: rgba(255, 94, 0,);
+    text-align: center;
+  background-image: linear-gradient(orangered, orange);
+    padding: 80px;
+    height: max-content;
+}
+.orange-box h1 {
+    color: orange;
+    font-family: monospace;
+    font-weight: 400;
+    padding: 12px;
+  
+}
+.mini-box {
+    background-color: white;
+    text-align: center;
+    padding: 26px;
+    height: max-content;
+    width: 90px;
+    border-radius: 4px;
+}
+.mini-box1 {
+    background-color: white;
+    text-align: center;
+    padding: 26px;
+    height: max-content;
+    width: 90px;
+    border-radius: 4px;
+}
+
+.mini-box2 {
+    background-color: white;
+    text-align: center;
+    padding: 26px;
+    height: max-content;
+    width: 90px;
+    border-radius: 4px;
+}
+
+.mini-box3 {
+    background-color: white;
+    text-align: center;
+    padding: 26px;
+    height: max-content;
+    width: 90px;
+    border-radius: 4px;
+}
+.mini-box4 {
+    background-color: white;
+    text-align: center;
+    padding: 26px;
+    height: max-content;
+    width: 90px;
+    border-radius: 4px;
+}
+.mini-box:hover {
+    background-color: black;
+    color: white;
+}
+.mini-box1:hover {
+    background-color: black;
+    color: white;
+}
+.mini-box2:hover {
+    background-color: black;
+    color: white;
+}
+.mini-box3:hover {
+    background-color: black;
+    color: white;
+}
+.mini-box4:hover {
+    background-color: black;
+    color: white;
+}
+
+.icons {
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 800;
+    max-width: 70%;
+    justify-content: space-between;
+}
+
+.foot {
+    margin: 500px;
+    padding: 100px;
+}
+.banner {
+    height: 20px;
+    background-color: orangered;
+}
+.footer-box {
+    height: 600px;
+    max-height: 900px;
+    background-color: rgb(13, 15, 12);
+}
+.p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sites {
+    display: flex;
+    flex-direction: column;
+}
+.sites a{
+    padding: 5px;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 400;
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+.sites a:hover{
+   color: orange;
+}
+.fo {
+    background-color: #717171;
+    height: 2px;
+}
+.copyright {
+    display: flex;    
+    flex-direction: row;
+    padding: 20px;
+}
+.copyright a{
+    background-color: #414141;
+    color: white;
+    border-radius: 50%;
+    padding: 12px;
+}
+.copyright a:hover {
+    background-color: white;
+    color: rgb(255, 115, 60);
+}
+.copy {
+    font-size: 20px;
+    color: white;
+    padding: 12px;
+}
+
